@@ -1,0 +1,8 @@
+{
+  "name": "athousandpaths",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npx serve www.athousandpaths.com --listen 3000 --no-clipboard",
+    "start:python": "python3 -m http.server 3000 --directory www.athousandpaths.com"
+  }
+}
